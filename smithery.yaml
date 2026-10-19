@@ -1,0 +1,7 @@
+name: genpark-rag-semantic-boundary-chunker-skill
+description: Semantic boundary preserving text chunker maintaining markdown headers, code fences, and paragraphs with token overlap
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
